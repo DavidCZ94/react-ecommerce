@@ -1,8 +1,8 @@
-import { createContext, ReactNode, useContext, useEffect, useState } from "react";
+import { createContext, ReactNode, useEffect, useState } from "react";
 import { Product } from "../../Models/product.type";
 import { Order } from "../../Models/order.type";
-import { apiUrl } from "../../Api";
-import { LoadingSpinnerContext } from "../loadingSpinnerContext";
+//import { apiUrl } from "../../Api";
+//import { LoadingSpinnerContext } from "../loadingSpinnerContext";
 
 type Props = {
     children: ReactNode,
